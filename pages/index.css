@@ -170,3 +170,63 @@
   width: 480px;
   height: 273px;
 }
+.form__conteiner {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/background_reservation.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d9e7ff;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 80px;
+}
+
+.form__admin {
+  display: flex;
+  justify-content: center;
+}
+
+.form__main-container {
+  max-width: 385px;
+  margin-bottom: 120px;
+}
+
+.form__heading {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__reservation {
+  margin-bottom: 32px;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__item {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
