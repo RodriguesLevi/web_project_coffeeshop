@@ -170,7 +170,7 @@
   width: 480px;
   height: 273px;
 }
-.form__reservation {
+.reservation__form {
   display: flex;
   flex-direction: column;
   background-image: url(/images/background_reservation.svg);
@@ -180,7 +180,7 @@
   background-color: #d9e7ff;
 }
 
-.form__admin {
+.reservation__form-admin {
   margin: 0 auto;
   max-width: 385px;
 }
@@ -189,7 +189,7 @@
   margin-bottom: 120px;
 }
 
-.form__heading {
+.reservation__title {
   display: flex;
   margin: 0 auto;
   margin-top: 100px;
@@ -201,7 +201,7 @@
   line-height: 52px;
 }
 
-.form__reservation {
+.reservation__form-heading {
   border: none;
 }
 
@@ -227,8 +227,6 @@
   padding: 15px 20px;
 }
 
-.form__item-text {
-}
 .form__item-number {
   height: 60px;
 }
@@ -236,8 +234,7 @@
 .form__item-datetime {
   color: #6f6f6f;
 }
-.form__item-email {
-}
+
 .form__item-checkbox {
   height: 20px;
   width: 20px;
