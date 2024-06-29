@@ -178,11 +178,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #d9e7ff;
+  padding: 100px 80px 120px;
 }
 
-.reservation__form-admin {
-  margin: 0 auto;
+.form {
   max-width: 385px;
+}
+.reservation__form {
+  margin: 0 auto;
 }
 
 .form__main-reservation {
@@ -191,9 +194,7 @@
 
 .reservation__title {
   display: flex;
-  margin: 0 auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
