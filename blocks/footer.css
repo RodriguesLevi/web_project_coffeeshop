@@ -6,7 +6,7 @@
 .footer__columns {
   display: flex;
 }
-.footer__column_content_social {
+.footer__column-social {
   margin-top: auto;
   margin-left: auto;
 }
