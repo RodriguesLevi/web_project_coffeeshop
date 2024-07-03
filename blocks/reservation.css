@@ -7,6 +7,8 @@
   background-size: cover;
   background-color: #d9e7ff;
   padding: 100px 80px 120px;
+  position: relative;
+  z-index: 1;
 }
 .reservation__title {
   display: flex;
