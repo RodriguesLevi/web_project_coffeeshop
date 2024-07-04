@@ -32,14 +32,13 @@
 }
 .footer__list {
   color: #f2f2f2;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer__list-item {
   margin-bottom: 16px;
   color: #ffffff;
-  display: flex;
-  padding-right: 50px;
-  gap: 10px;
 }
 
 .footer__social-icon {
@@ -49,4 +48,15 @@
 .footer__copyright {
   color: #ffffff;
   margin-top: 100px;
+}
+
+.footer__list-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer__list-link:hover {
+  color: #c1c1c1;
 }
